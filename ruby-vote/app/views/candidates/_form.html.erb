@@ -1,0 +1,9 @@
+<%= form_for candidate do |f| %>
+ 
+  name: <%= f.text_field :name %><br />
+  party: <%= f.text_field :party %><br />
+  age: <%= f.text_field :age %><br />
+  politics: <%= f.text_field :politics %><br />
+
+  <%= f.submit %>
+<% end %>
